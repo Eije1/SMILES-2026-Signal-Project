@@ -14,4 +14,3 @@ This repository contains my selection project for the SMILES-2026 Summer School.
 
 ## Steps to see my results
 To verify my results, just make sure you have the `challenge.mat` file in the same directory as the scripts. You can then run the cancellation by executing: `python applicant_solution.py`
-
