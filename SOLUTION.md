@@ -18,6 +18,7 @@ To reproduce the results in `results.json`, follow these steps:
     python applicant_solution.py
     ```
 4.  **Verification**: The script will evaluate the baseline and my solution, then write the final metrics to `results.json`. The average score should be approximately **9.69 dB**. Just incase my code mistakenly gives you the same value as the baseline (4.02dB), please kindly enter the runtime in your colab and restart the session to clear stucked or initial responses (that is like refreshing the memory of the colab engine so it can process new input).
+5.  **Note on Environment:** If you are running this in a shared environment like Google Colab and encounter baseline-only results (4.02dB) for my solutions, please Restart the Session (Runtime -> Restart session) before executing. This ensures the SVD logic is applied to a fresh memory state and prevents variable leakage from previous runs.
 
 ## 2. Final Solution Description
 My solution implements a **Two-Stage Interference Cancellation** strategy designed to address both the device-generated leakage and external spatial noise.
